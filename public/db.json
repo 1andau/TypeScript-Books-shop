@@ -10,7 +10,7 @@
       "year": 1958,
       "category": "1",
       "themes" : "Fantasy",
-      "price" : "40",
+      "price" : 40,
       "subtitle" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, perferendis eius. Dignissimos, labore suscipit. Unde Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil tempore exercitationem temporibus itaque eligendi ducimus beatae voluptatibus harum soluta officia. "
     },
     {
@@ -24,7 +24,7 @@
       "year": 1836,
       "category": "2",
       "themes" : "Fantasy",
-      "price" : "40",
+      "price" : 40,
       "subtitle" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, perferendis eius. Dignissimos, labore suscipit. Unde Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil tempore exercitationem temporibus itaque eligendi ducimus beatae voluptatibus harum soluta officia. "
 
     },
@@ -39,7 +39,7 @@
       "year": 1315,
       "category": "1",
       "themes" : "Novel",
-      "price" : "30",
+      "price" : 30,
       "subtitle" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, perferendis eius. Dignissimos, labore suscipit. Unde Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil tempore exercitationem temporibus itaque eligendi ducimus beatae voluptatibus harum soluta officia. "
 
     },
@@ -54,7 +54,7 @@
       "year": -1700,
       "category": "2",
       "themes" : "Novel",
-      "price" : "15",
+      "price" : 15,
       "subtitle" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, perferendis eius. Dignissimos, labore suscipit. Unde Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil tempore exercitationem temporibus itaque eligendi ducimus beatae voluptatibus harum soluta officia. "
 
     },
@@ -66,10 +66,10 @@
       "language": "Hebrew",
       "pages": 176,
       "title": "The Book Of Job",
-      "year": -600,
+      "year": 600,
       "category": "light",
       "themes" : "Thriller",
-      "price" : "11",
+      "price" :11,
       "subtitle" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, perferendis eius. Dignissimos, labore suscipit. Unde Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil tempore exercitationem temporibus itaque eligendi ducimus beatae voluptatibus harum soluta officia. "
 
     },
@@ -84,7 +84,7 @@
       "year": 1200,
       "category": "light",
       "themes" : "Thriller",
-      "price" : "33",
+      "price" : 33,
       "subtitle" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, perferendis eius. Dignissimos, labore suscipit. Unde Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil tempore exercitationem temporibus itaque eligendi ducimus beatae voluptatibus harum soluta officia. "
 
     },
@@ -99,7 +99,7 @@
       "year": 1350,
       "category": "hard",
       "themes" : "Thriller",
-      "price" : "50",
+      "price" : 50,
       "subtitle" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, perferendis eius. Dignissimos, labore suscipit. Unde Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil tempore exercitationem temporibus itaque eligendi ducimus beatae voluptatibus harum soluta officia. "
 
     },
@@ -114,7 +114,7 @@
       "year": 1813,
       "category": "light",
       "themes" : "Dystopia",
-      "price" : "24",
+      "price" : 24,
       "subtitle" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, perferendis eius. Dignissimos, labore suscipit. Unde Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil tempore exercitationem temporibus itaque eligendi ducimus beatae voluptatibus harum soluta officia. "
 
     },
@@ -129,7 +129,7 @@
       "year": 1835,
       "category": "hard",
       "themes" : "Dystopia",
-      "price" : "10",
+      "price" : 10,
       "subtitle" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, perferendis eius. Dignissimos, labore suscipit. Unde Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil tempore exercitationem temporibus itaque eligendi ducimus beatae voluptatibus harum soluta officia. "
 
     },
@@ -144,7 +144,7 @@
       "year": 1952,
       "category": "light",
       "themes" : "Dystopia",
-      "price" : "55",
+      "price" : 55,
       "subtitle" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, perferendis eius. Dignissimos, labore suscipit. Unde Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil tempore exercitationem temporibus itaque eligendi ducimus beatae voluptatibus harum soluta officia. "
 
     },
@@ -159,7 +159,7 @@
       "year": 1351,
       "category": "hard",
       "themes" : "Dystopia",
-      "price" : "44",
+      "price" : 66,
       "subtitle" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, perferendis eius. Dignissimos, labore suscipit. Unde Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil tempore exercitationem temporibus itaque eligendi ducimus beatae voluptatibus harum soluta officia. "
 
     },
@@ -174,7 +174,7 @@
       "year": 1965,
       "category": "light",
       "themes" : "Fantasy",
-      "price" : "13",
+      "price" : 77,
       "subtitle" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, perferendis eius. Dignissimos, labore suscipit. Unde Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil tempore exercitationem temporibus itaque eligendi ducimus beatae voluptatibus harum soluta officia. "
 
     },
@@ -189,7 +189,7 @@
       "year": 1847,
       "category": "hard",
       "themes" : "Thriller",
-      "price" : "47",
+      "price" : 44,
       "subtitle" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, perferendis eius. Dignissimos, labore suscipit. Unde Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil tempore exercitationem temporibus itaque eligendi ducimus beatae voluptatibus harum soluta officia. "
 
     },
@@ -204,7 +204,7 @@
       "year": 1942,
       "category": "light",
       "themes" : "Novel",
-      "price" : "43",
+      "price" : 77,
       "subtitle" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, perferendis eius. Dignissimos, labore suscipit. Unde Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil tempore exercitationem temporibus itaque eligendi ducimus beatae voluptatibus harum soluta officia. "
 
     },
@@ -219,7 +219,7 @@
       "year": 1952,
       "category": "hard",
       "themes" : "Novel",
-      "price" : "49",
+      "price" : 43,
       "subtitle" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, perferendis eius. Dignissimos, labore suscipit. Unde Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil tempore exercitationem temporibus itaque eligendi ducimus beatae voluptatibus harum soluta officia. "
     }]
     

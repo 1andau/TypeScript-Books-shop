@@ -1,11 +1,17 @@
-import React from 'react';
 import {Link} from 'react-router-dom'
+import { selectCart } from '../redux/slices/cartSlice';
+import { useDispatch, useSelector } from 'react-redux';
+
 function Header() {
+
+const {items} = useSelector(selectCart);
+const totalCount = items.reduce((sum: number, item: any) => sum + item.count, 0);
+
 return (
   <div className="container">
     <div className="content__top">
       <header id="header_nav">
-        <Link className="logo" alt="logo" to="/">
+        <Link className="logo" to="/">
           <svg
             width="70"
             height="30"
@@ -33,6 +39,7 @@ return (
             <Link className="links" to="/cart">
               Cart
             </Link>
+            <span>{totalCount}</span>
           </ul>
         </nav>
       </header>

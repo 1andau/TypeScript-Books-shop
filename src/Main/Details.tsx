@@ -1,11 +1,33 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import axios from 'axios'
 import {useParams } from 'react-router-dom'
-import Header from '../components/Header';
+import Header from '../components/Header'
+import { useSelector } from 'react-redux'
+import { selectCart } from '../redux/slices/cartSlice'
 
-function Details() {
-const [blog, setBlog] = useState();
+const Details: React.FC = () => {
+  const [blog, setBlog] = React.useState<{
+    imageLink: string;
+    id: string;
+    price: number;
+    title: string; 
+    author: string; 
+    country:string; 
+    pages: number;
+    language: string; 
+    themes: string; 
+    subtitle:string; 
+    category:string;
+    year: string;
+
+  }>();
+  const { totlaPrice} = useSelector(selectCart); 
   const {id} = useParams(); 
+
+const handleOneClick = () => {
+  alert('youre order is: ' + totlaPrice )
+}
+
 
 useEffect(() => {
   async function fetchBlogs(){
@@ -22,18 +44,19 @@ alert ('Error');
 }, [id])
 
 if(!blog) {
-  return 'Loading'
+  return <>Loading...</>
 }
 
 
   return (
 
 
-<div className = "card-wrapper">
+<div className = "card-wrapper" key={blog.id}>
+  <Header/>
   <div className = "card">
       <div className = "img-display">
-        <div className = "img-showcase">
-          <img src = {blog.imageLink} />
+        <div className = "img-showcase" >
+          <img src = {blog.imageLink} alt="" />
         </div>
       </div>
 
@@ -61,9 +84,11 @@ if(!blog) {
         </ul>
       </div>
 
-        <button type = "button" className = "btn">
+        <button type = "button" className = "btn" >
           Add to Cart </button>
-        <button type = "button" className = "btn">Click on by</button>
+          {/* {addedCount > 0 && <i>{addedCount}</i>} */}
+
+        <button type = "button" className = "btn" onClick={handleOneClick} >Click on by</button>
     </div>
   </div>
 </div>

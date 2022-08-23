@@ -3,8 +3,8 @@ import Home from './Main/Home';
 import { Routes, Route } from "react-router-dom"
 import Details from './Main/Details';
 import Cart from './components/cart/Cart';
+
 const App = () => {
-  
   return (
 <div className="wrapper">
   <Routes>
@@ -12,7 +12,6 @@ const App = () => {
   <Route path='/Details/:id' element={<Details/>}></Route>
   <Route path='/cart' element={<Cart/>}></Route>
   </Routes>
-
 </div>
 
   );

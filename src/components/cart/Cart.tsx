@@ -1,9 +1,25 @@
-import React from 'react'
-import Header from '../Header'
 import { Link } from 'react-router-dom'
 import './Cart.scss'; 
-import CartItem from './CartItem';
+import {CartItem} from './CartItem';
+import Header from '../Header';
+import { useSelector, useDispatch } from 'react-redux';
+import { clearItems, selectCart } from '../../redux/slices/cartSlice';
+import CartEmpty from './CartEmpty';
+
 const Cart = () => {
+const dispatch = useDispatch(); 
+const {totalPrice, items} = useSelector(selectCart); 
+const totalCount = items.reduce((sum: number, item: any) => sum + item.count, 0);
+
+const onClickClear = () => {
+  if(window.confirm('Clear cart?')) {
+    dispatch(clearItems()); 
+  }
+}
+if(!totalPrice){
+  <CartEmpty/>
+}
+
   return (
     <div>
         <Header/>
@@ -38,7 +54,7 @@ const Cart = () => {
             </svg>
             Корзина
           </h2>
-          <div onClick={[]} className="cart__clear">
+          <div onClick={onClickClear} className="cart__clear">
             <svg
               width="20"
               height="20"
@@ -76,18 +92,19 @@ const Cart = () => {
         </div>
         <div className="content__items">
       
-      <CartItem/>
-
+{items.map((item: any) => (
+  <CartItem key={item.id} {...item}/>
+))}
         </div>
         <div className="cart__bottom">
           <div className="cart__bottom-details">
             <span>
               {' '}
-              All books <b>{[]} шт.</b>{' '}
+              All books : <b>{totalCount} </b>{' '}
             </span>
             <span>
               {' '}
-              Сумма : <b>{[]} ₽</b>{' '}
+              Сумма : <b>{totalPrice} ₽</b>{' '}
             </span>
           </div>
           <div className="cart__bottom-buttons">
@@ -106,10 +123,10 @@ const Cart = () => {
                   strokeLinejoin="round"></path>
               </svg>
 
-              <span>Вернуться назад</span>
+              <span>come back</span>
             </Link>
             <div className="button pay-btn">
-              <span>Оплатить сейчас</span>
+              <span>Pay now</span>
             </div>
           </div>
         </div>
